@@ -50,6 +50,8 @@ p {
     font-size: 16px;
 }
 
+/*hero section*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -57,22 +59,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* side bar on the right side of the screen. */
@@ -87,28 +73,17 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead .benefit-brand .benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead .benefit-brand .benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead .benefit-brand .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
- img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -116,35 +91,49 @@ img {
 
 /*main body of the article, float the images and text accordingly */
 
-.articles {
-    margin-bottom: 20px;
+.main-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+
+.explanation {
+    margin: 0 auto 20px auto;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
+}   
+
+.article-text {
+    float: right;
+    padding: 25px ;
+    width: 80%;
+    
 }
 
 
-.article-images {
+.explanation img {
+    float: right; 
     max-height: 200px;
-    float: left;
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+
+}
+.text-right {
+    margin-left: 25px;   
+}
+.text-left {
+    margin-right: 25px;  
 }
 
-.text-right .text-left {
-    float: left;
-}
-
-.text-right h2 {
+.explanation h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    text-align: right;
-}
-
-.text-left h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    text-align: left;
 }
 
 /* footer modifications*/
