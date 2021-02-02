@@ -95,7 +95,7 @@ aside {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-   
+    
 }
 
 .explanation {
@@ -109,20 +109,19 @@ aside {
 }   
 
 .article-text {
-    float: right;
-    padding: 25px ;
-    width: 80%;
     
+    float:right;
+    padding: 25px ;
+    width: 65%;
 }
 
-
 .explanation img {
-    float: right; 
-    max-height: 200px;
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-
+    
+    float:right;
+    width: 35%;
+    max-width: 250px;
+    
+    
 }
 .text-right {
     margin-left: 25px;   

@@ -4,6 +4,5 @@ Welcome to the Horiseon site, our focus when designinig this site is accesibilit
 **HTML Semantincs**
 we have the following elements
 *<header>
-*<body>
 
 
